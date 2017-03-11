@@ -1,0 +1,17 @@
+Pick one of the options below
+
+--option 1 -basic
+	you need to add a function that tells the user the number of merit badges they have
+	Steps:
+	1: you need to add a button to the web page us the  "button" tag 
+	2: add the onclick method to the button tag to "call" the function
+	3: write the function in the file below
+	4: add code to the fuction to get the the amount of merit badges and call the "alert" function to let teh user know
+	how many merit badges they have
+	
+								|  if you have extra time try locing over the rest of the file in this folder that are a part of this project and read
+								|  the coments to find out what they do.
+
+--option 2 - medum
+	write a function to give the user a summery of if they got the eagle merit badge finsh the already started section of code
+	

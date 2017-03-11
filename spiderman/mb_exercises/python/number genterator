@@ -1,0 +1,20 @@
+#!/usr/bin/evn python
+# -*- coding: utf-8 -*-
+
+¨¨¨num_genterate.py: Genterate a number.¨¨¨
+
+import random
+min = 1
+max = 1000
+
+genterate_again = ¨yes¨
+
+while genterate_again == ¨yes¨ or roll_again == ¨y¨:
+	print ¨Genterating...¨
+	print ¨The number is...¨
+	print random.randint(min, max)
+	print random.radiant(min, max)
+
+	genterate_again = raw_input(¨Do you want another number?¨)
+
+print ¨/nThanks!¨

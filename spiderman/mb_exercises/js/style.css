@@ -1,0 +1,47 @@
+#badgeList {
+border-style: solid;
+position: relative;
+left: 21%;
+width: 50%;
+background-color: white;
+height 600pt;
+font-size: 40px;
+font-weight: bolder;
+text-align: center;
+}
+#myBadges{
+list-style: none;
+column-count:2;
+text-align: left;
+font-size: 30px;
+font-weight: bold;
+color: black;
+}
+#badgeCount{
+
+}
+#newbut{
+border-radius: 10px;
+width: 50%;
+position: relative;
+left: 21%;
+height: 40px;
+font-size: 24px;
+}
+
+body{
+background-color: rgb(182,184,186);
+
+background-image:  url(background.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+#title{
+font-size: 55px;
+align-content: center;
+}
+#sashimg{
+width: 109px;
+height: 121px;
+}

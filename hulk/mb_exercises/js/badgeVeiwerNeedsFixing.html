@@ -1,0 +1,60 @@
+<html><!-- tells the browser the languege-->
+<head><!--this part of the program is information about how the browser is to run the page -->
+<script> //A script tag is where you can put java script code. This one is the code to add a merit badge
+var num = localStorage.length;
+var badgeNames= [];
+function addBadge() {
+num++;
+	var badgeName = prompt("Merit Badge# "+String(num), "enter name here");
+	if (badgeName==="null") {
+		alert("badge needs a name");
+		return;
+	}else {
+			count.innerHTML = "Merit Badge Count: "+String(localStorage.length+1); 
+	var ul = document.getElementById("myBadges");
+   console.log(badgeName);
+   var li = document.createElement("li");
+   li.appendChild(document.createTextNode("- "+String(badgeName)));
+   li.setAttribute("id", "element4"); // added line
+   ul.appendChild(li);
+var count = document.getElementById("badgeCount")
+  
+   if (typeof(Storage) !== "undefined") {
+    // Code for localStorage/sessionStorage.
+    
+} else {
+    // Sorry! No Web Storage support..
+
+localStorage.setItem("badge: "+String(num), badgeName);
+  //alert(li.id);
+}
+}
+}
+</script><!-- end of the script-->
+<script>//Where you can write your code
+function run(){
+alert("BADGES "+String(num));
+}
+</script>
+<!-- other scripts or styling information-->
+<script src="javascript.js"></script>
+<!--<script src="yourcode.js"></script>-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>My Badge Manager</title><!--this is the test that is set as the title of the tab or window in the browser-->
+</head>
+<body><!-- the stuff that shows up on the page-->
+
+<h1 id="title" align="center"><!--Very big text "Tag" usaly the site name--> My Badge Manager<!-- the text that is displayed--> 
+<img src="sash.png" alt="meritbadge sash" id="sashimg" align="right"></h1>
+<!-- shows a image on the page--><br><!--starts a new line on teh page it is called a break-->
+<h1>for: Conner Reitmeier</h2><div align="center" id="badgeCount">2</div>
+<button type="button" onclick="addBadge();"id="newbut">Add A Badge</button></br>
+<button onClick="run();">run</button>
+  
+   </br>
+<div id="badgeList">   My Badges<br>
+	<ul id="myBadges" >
+	</ul>
+</div>
+</body>
+</html>
